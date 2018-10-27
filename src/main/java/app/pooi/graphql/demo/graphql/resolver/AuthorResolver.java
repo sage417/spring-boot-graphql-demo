@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 import java.util.List;
 
 @Component
-public class AuthorResolver implements GraphQLResolver<Post> {
+public class AuthorResolver implements GraphQLResolver<Author> {
 
     private PostDao postDao;
 
